@@ -13,9 +13,9 @@ Before installation, please ensure that [ripgrep](https://github.com/BurntSushi/
 | `K`             | Show Signature      |
 | `[d`            | Next Issue          |
 | `]d`            | Previous Issue      |
-| `\<leader\>vrn` | Rename Symbol       |
-| `\<C-h\>`       | Show Signature      |
-| `\<leader\>pv`  | Show Directory Tree |
+| `<leader>vrn`   | Rename Symbol       |
+| `<C-h>`         | Show Signature      |
+| `<leader>pv`    | Show Directory Tree |
 
 ### Installed LSPs
 - tsserver
