@@ -8,7 +8,7 @@ Before installation, please ensure that [ripgrep](https://github.com/BurntSushi/
 
 ### Command List
 | Command         | Description                                |
-| ---             | ---                                        |
+| :---:           | ---                                        |
 | `<leader>pv`    | Show Directory Tree                        |
 | `<leader>pf`    | Find File & Preview                        |
 | `<leader>ps`    | Grep word                                  |
