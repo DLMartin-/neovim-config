@@ -29,10 +29,11 @@ Before installation, please ensure that [ripgrep](https://github.com/BurntSushi/
 | `K`             | Swaps selected line(s) with the line above |
 
 ### Installed LSPs
-- tsserver
-- eslint
-- lua_ls
-- rust_analyzer
-- clangd
-- cmake
-- marksman
+| Server         | Language    |
+| tsserver       | Typescript  |
+| eslint         | Javascript  |
+| lua_ls         | Lua         |
+| rust_analyzer  | Rust        |
+| cland          | C/C++       |
+| cmake          | CMake       |
+| marksman       | Markdown    |
