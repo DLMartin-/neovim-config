@@ -30,6 +30,7 @@ Before installation, please ensure that [ripgrep](https://github.com/BurntSushi/
 
 ### Installed LSPs
 | Server         | Language    |
+| ---            | ---         |
 | tsserver       | Typescript  |
 | eslint         | Javascript  |
 | lua_ls         | Lua         |
