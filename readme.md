@@ -28,6 +28,7 @@ Before installation, please ensure that [ripgrep](https://github.com/BurntSushi/
 | `J`             | Swaps selected line(s) with the line below |
 | `K`             | Swaps selected line(s) with the line above |
 
+
 ### Installed LSPs
 | Server         | Language    |
 | ---            | ---         |
