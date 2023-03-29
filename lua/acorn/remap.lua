@@ -52,3 +52,16 @@ end)
 vim.keymap.set("t", "<A-n>", function ()
   vim.cmd('lua require("FTerm").toggle()')
 end)
+
+-- Toggles a breakpoint
+vim.keymap.set("n", "<leader>b", function ()
+  vim.cmd('lua require("dap").toggle_breakpoint()')
+end)
+
+-- Continues execution
+vim.keymap.set("n", "<F5>", function() require('dap').continue() end)
+-- Step Over Line
+vim.keymap.set("n", "<F10>", function() require('dap').step_over() end)
+vim.keymap.set("n", "<F11>", function() require('dap').step_into() end)
+vim.keymap.set("n", "<F12>", function() require('dap').step_out() end)
+

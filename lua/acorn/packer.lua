@@ -14,6 +14,10 @@ return require('packer').startup(function(use)
   -- Floating Terminal support
   use "numToStr/FTerm.nvim"
 
+  -- Debugger (DAP)
+  use "mfussenegger/nvim-dap"
+  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"}}
+
   use({
 	  'rose-pine/neovim',
 	  as = 'rose-pine',
