@@ -42,3 +42,13 @@ end)
 vim.keymap.set("n", "<leader>q", function ()
   vim.cmd("wq")
 end)
+
+-- Opens a floating terminal
+vim.keymap.set("n", "<A-n>", function ()
+  vim.cmd('lua require("FTerm").toggle()')
+end)
+
+-- Closes the floating terminal
+vim.keymap.set("t", "<A-n>", function ()
+  vim.cmd('lua require("FTerm").toggle()')
+end)

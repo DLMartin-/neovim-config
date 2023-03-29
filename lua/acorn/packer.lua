@@ -11,6 +11,9 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- Floating Terminal support
+  use "numToStr/FTerm.nvim"
+
   use({
 	  'rose-pine/neovim',
 	  as = 'rose-pine',
